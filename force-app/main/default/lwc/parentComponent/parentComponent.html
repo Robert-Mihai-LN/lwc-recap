@@ -1,0 +1,8 @@
+<template>
+    <lightning-card title="Component A">
+     <h1>{greeting}</h1>
+    <lightning-input onchange={changeUsername}></lightning-input>
+    <!-- so when we pass data down and we have a variable userName ,we can -->
+    <c-child-component user-name={userName}></c-child-component>
+    </lightning-card>
+</template>

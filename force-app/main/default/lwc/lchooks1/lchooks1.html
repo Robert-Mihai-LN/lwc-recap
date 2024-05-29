@@ -1,0 +1,12 @@
+<template>
+    <lightning-card>
+      Hello world
+    <br/>
+    <template if:true={error}>
+      <b>Error occured</b>
+    </template>
+    <template if:false={error}>
+     <b>Error didn't occurr</b>
+    </template>
+   </lightning-card>
+</template>
